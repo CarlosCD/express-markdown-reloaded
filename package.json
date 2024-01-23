@@ -1,5 +1,5 @@
 {
-  "name": "express-markdown-reloaded",
+  "name": "@carloscd/express-markdown-reloaded",
   "description": "Express middleware for rendering markdown files",
   "version": "0.2.4",
   "author": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/HansHammel/express-markdown-reloaded.git"
+    "url": "git+https://github.com/CarlosCD/express-markdown-reloaded.git"
   },
   "directories": {
     "lib": "./lib"
   },
   "scripts": {
-	"postinstall": "cd example && npm i",
-	"test": "cd example && node server.js"
+    "postinstall": "cd example && npm i",
+    "test": "cd example && node server.js"
   },
   "keywords": [
     "express",
